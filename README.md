@@ -22,3 +22,7 @@ gsom_sample_csv["STATION"..."TMAX","TMIN"](from NOAA)
   D:There many indexes but just 4 rows in it
 
 tips: D(description), I(ideas), Q(questions)
+
+
+Daily Log:
+  2026-4-7: clear and get data. next step is going to format date used in plot
