@@ -26,3 +26,4 @@ tips: D(description), I(ideas), Q(questions)
 
 Daily Log:
   2026-4-7: clear and get data. next step is going to format date used in plot
+  2026-4-8: define the explore function but have loop problem to solve. maybe we can let original data into function.
