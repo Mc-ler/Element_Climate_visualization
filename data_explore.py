@@ -33,5 +33,20 @@ with open(filename) as f:
     s2_date, s2_emnt, s2_emxt = data_read(read_data,"CHM00057131")
     
 # plot figures (combination of two station with H/L data)
+plt.style.use("ggplot")
+fig, ax = plt.subplots(1, 2)
+ax[0].plot(s1_date, s1_emnt, c='#bcab90', alpha=0.8)
+ax[0].plot(s1_date, s1_emxt, c='#594d45', alpha=0.8)
+ax[0].fill_between(s1_date, s1_emnt, s1_emxt, facecolor='#ac7e54',alpha=0.5)
 
-        
+
+ax[1].plot(s2_date, s2_emnt, c='#0073ad', alpha=0.8)
+ax[1].plot(s2_date, s2_emxt, c='#123057', alpha=0.8)
+ax[1].fill_between(s2_date, s2_emnt, s2_emxt, facecolor='#0067a7', alpha=0.5)
+
+title = "Monthly High Tempeture VS. Low Temp Of Two Stations"
+plt.title(title, fontsize=18, loc = 'center')
+fig.autofmt_xdate()
+plt.show()
+
+ 
