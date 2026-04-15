@@ -28,4 +28,5 @@ Daily Log:
   2026-4-7: clear and get data. next step is going to format date used in plot
   2026-4-8: define the explore function but have loop problem to solve. maybe we can let original data into function.
   2026-4-9: alter function into latest version (input data file, solve problem before). next step is going to study plot figure by matplotlib and seaborn, composed picture maybe? Insert on photo relative to climate change. alter the font of title and labels. 
+  2026-4-15: Control the location of title. Set the font for all labels. The most important was set x ticks. Just a litter progress today.
    
