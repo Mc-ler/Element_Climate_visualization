@@ -4,7 +4,7 @@ Data&Description&task(data -> analysis -> visualization -> set model -> visualiz
 
 data_ori["STATION","DATE","EMNT","EMXT"](from NOAA)
   D:There two STATION with its recode time, MAX/MIN temperature.
-  I:1.Single STATION with different months or years and predict the next month/years(scikit_learn, neural_network)
+  I:1.Single STATION with different months or years and predict the next month/years(scikit_learn, neural_network, deep learning)
     devise a math model with random factor to describe climate change
     2.Differentiate two STATION with  distance(compute by Long. Lat.)
     Info:
@@ -30,3 +30,4 @@ Daily Log:
   2026-4-9: alter function into latest version (input data file, solve problem before). next step is going to study plot figure by matplotlib and seaborn, composed picture maybe? Insert on photo relative to climate change. alter the font of title and labels. 
   2026-4-15: Control the location of title. Set the font for all labels. The most important was set x ticks. Just a litter progress today.
   2026-4-16: Insert photo and transfer layout if it. What if add units?
+  2026-4-17: The first graph finished! Teh next one is using Deep learning skill to predict the next month or year?
