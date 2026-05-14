@@ -71,10 +71,10 @@ ax[1].set_ylabel("Temperature($^\circ$C)",fontsize=14, labelpad=10)
 ax[1].imshow(img_1, extent=get_extent(s2_date, min(s2_emnt), max(s2_emxt)), aspect='auto', zorder=0)
 
 
-
 title = f"Monthly High Tempeture VS. Low Temp Of Two Stations".title()
 fig.text(0.5, 0.9, title, fontsize=18, ha='center', transform=fig.transFigure)
 fig.autofmt_xdate()
+fig.savefig("./源代码文件/chapter_16/Temp_Pri/image/figure_1_3.svg", dpi=300, format='svg')
 plt.show()
 
  
